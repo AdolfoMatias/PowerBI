@@ -1,0 +1,30 @@
+✅  OK
+🔴  Vermelho
+🔶  estavel
+
+
+9205 ⏵	
+9206 ⏶	
+9207 ⏷
+
+🟠 Circulo VERMELHO
+🟡 Circulo AMARELO
+🟢 Circulo VERDE
+
+https://emojiterra.com/pt/circulo-laranja/
+https://emojiterra.com/pt/circulo-amarelo/
+https://emojiterra.com/pt/circulo-verde/
+
+
+
+
+KPI Lucro = SWITCH(TRUE();
+      [Lucro $]=0;"🔶";
+      [Lucro $]<0;"🔴";
+      [Lucro $]>1;"✅";0)
+
+
+KPI Meta = SWITCH(TRUE();
+      [% Realizado]<1;"🔴";
+      [% Realizado]>=1;"✅";0)
+
